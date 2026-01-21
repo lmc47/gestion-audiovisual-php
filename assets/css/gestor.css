@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #2563eb;
+    --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+}
+.main-card {
+    border-radius: 20px;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 20px 40px rgba(0,0,0,.08);
+}
+.card-header-custom {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.table-custom th {
+    background: #f1f5f9;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.table-rounded {
+    border-radius: 12px;
+    overflow: hidden;
+    /* Se le agrega un scroll a la tabla */
+    overflow-x: auto;
+    width: 100%;
+}

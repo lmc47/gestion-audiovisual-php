@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Poppins', sans-serif;
+}
+.detail-card {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.08);
+}
+.label {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #64748b;
+    letter-spacing: 1px;
+}
+.table-custom th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #64748b;
+    background: #f1f5f9;
+    border: none;
+}
+.table-custom td {
+    background: #fff;
+}
+.table-rounded {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+}
